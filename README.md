@@ -16,9 +16,9 @@ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
      libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
      xz-utils tk-dev
 ## Comandos pyenv
-pyenv install --list
-pyenv install 3.6.3 # Vai demorar um pouco
-pyenv global 3.6.3
+1. pyenv install --list
+2. pyenv install 3.6.3 # Vai demorar um pouco
+3. pyenv global 3.6.3
 
 # pyenv-virtualenvwrapper
 
@@ -28,14 +28,18 @@ source ~/.bashrc
 
 ## Comandos virtualenvwrapper
 
-para criar um virtualenv
-```mkvirtualenv nomedovenv --python=versãodopython```
-para desativar virtualenv
-```deactivate```
-para ativar virtualenv
-```workon nomedavenv```
-deletar virtualenv
-```rmvirtualenv nomedavenv```
+1. para criar um virtualenv
+     mkvirtualenv nomedovenv --python=versãodopython
+
+2.para desativar virtualenv
+     deactivate
+
+3.para ativar virtualenv
+     workon nomedavenv
+
+4. deletar virtualenv
+     rmvirtualenv nomedavenv
+
 # Configura manage.py bashrc
 
-```echo alias manage='python $VIRTUAL_ENV/../manage.py' >> ~/.bashrc```
+echo alias manage='python $VIRTUAL_ENV/../manage.py' >> ~/.bashrc
