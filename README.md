@@ -29,16 +29,16 @@ source ~/.bashrc
 ## Comandos virtualenvwrapper
 
 1. para criar um virtualenv
-     mkvirtualenv nomedovenv --python=versãodopython
+**mkvirtualenv nomedovenv --python=versãodopython**
 
 2.para desativar virtualenv
-     deactivate
+**deactivate**
 
 3.para ativar virtualenv
-     workon nomedavenv
+**workon nomedavenv**
 
 4. deletar virtualenv
-     rmvirtualenv nomedavenv
+**rmvirtualenv nomedavenv**
 
 # Configura manage.py bashrc
 
