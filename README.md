@@ -95,14 +95,15 @@ python -V
 pyenv (https://github.com/pyenv/pyenv)
 pyenv-virtualenvwrapper (https://github.com/pyenv/pyenv-virtualenvwrapper)
 pyenv
-sudo apt-get update
-sudo apt-get install -y git
 
-git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-source ~/.bashrc
+´´´sudo apt-get update´´´
+´´´sudo apt-get install -y git´´´
+
+1. git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+2. echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+3. echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+4. echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+5. source ~/.bashrc
 
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
      libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
@@ -114,9 +115,9 @@ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
 
 # pyenv-virtualenvwrapper
 
-git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
-echo 'pyenv virtualenvwrapper' >> ~/.bashrc
-source ~/.bashrc
+1. git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
+2. echo 'pyenv virtualenvwrapper' >> ~/.bashrc
+3. source ~/.bashrc
 
 ## Comandos virtualenvwrapper
 
