@@ -81,38 +81,13 @@ pyenv global versao_principal segunda_versao terceira_versao
 exemplo, vamos supor que você instalou o Python 3.5.1, 3.6.2, 2.7.13 , então o comando seria:
 
 ```bash
-pyenv global 3.5.1 3.6.2 2.7.13
+pyenv global 3.5.1
 ```
 Verifique a versão instalada com:
 
 ```bash
 python -V
 ```
-
-
-# Pyenv-e-Virtualenvwrapper
-
-pyenv (https://github.com/pyenv/pyenv)
-pyenv-virtualenvwrapper (https://github.com/pyenv/pyenv-virtualenvwrapper)
-pyenv
-
-```sudo apt-get update```
-```sudo apt-get install -y git```
-
-1. git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-2. echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-3. echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-4. echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-5. source ~/.bashrc
-
-```sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
-     libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
-     xz-utils tk-dev
-```
-## Comandos pyenv
-1. pyenv install --list
-2. pyenv install 3.6.3 # Vai demorar um pouco
-3. pyenv global 3.6.3
 
 # pyenv-virtualenvwrapper
 
