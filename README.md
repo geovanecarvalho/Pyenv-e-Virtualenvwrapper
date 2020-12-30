@@ -88,6 +88,11 @@ Verifique a versão instalada com:
 ```bash
 python -V
 ```
+Verifique a versão em utilização:
+
+```bash
+pyenv versions
+```
 
 # pyenv-virtualenvwrapper
 
