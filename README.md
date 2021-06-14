@@ -119,5 +119,6 @@ pyenv versions
 echo alias manage='python $VIRTUAL_ENV/../manage.py' >> ~/.bashrc
 
 # Mostrar Branch no Terminal
-
-echo export PS1='\u@\h\[\033[01;34m\] \w\[\033[0;32m\]$(__git_ps1 " (%s)")\[\033[01;34m\]$\[\033[00m\] ' >> ~/.bashrc
+```
+export PS1='\u@\h\[\033[01;34m\] \w\[\033[0;32m\]$(__git_ps1 " (%s)")\[\033[01;34m\]$\[\033[00m\] ' >> ~/.bashrc
+```
